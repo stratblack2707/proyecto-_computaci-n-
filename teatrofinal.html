@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-image: linear-gradient(to bottom, #BDAF47, #680432);
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .stage {
+      width: 600px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+    
+    .character {
+      font-weight: bold;
+    }
+    
+    .dialogue {
+      margin-left: 40px;
+    }
+    
+    h1 {
+      color: #fff;
+      text-align: center;
+      font-size: 32px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    h2 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    a {
+      color: #007bff;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    
+    a:hover {
+      color: #004999;
+    }
+    
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    
+    .button:hover {
+      background-color: #004999;
+    }
+    
+    hr.hr-design {
+      border: none;
+      height: 2px;
+      background-color: #333;
+      margin: 20px 0;
+    }
+    
+    .photo-album {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+    }
+    
+    .photo-album img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    .youtube-video {
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-bottom: 56.25%;
+      margin-bottom: 20px;
+    }
+    
+    .youtube-video iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+    
+    .corner-image {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-image: url("small-image.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="stage">
+
+    <div class="corner-image"></div>
+    <h1>Obra de Teatro "La venganza es dulce"</h1>
+    <div> <a href="https://www.youtube.com/watch?v=-67GDQF8_Sw" target="_blank">Ver video en YouTube</a> </div>
+    <p>
+      Volver al <a class="back-link" href="F:\HTML huitron\oficiales/indexoficial.html">Volver al índice</a>
+    </p>
+    <div> Personajes:</div>
+    <div>_Charlie: mejor amigo del Sr. Jones</div>
+    <div>_PUNK: líder de la brigada robot</div>
+    <div>_Sr. Jones: científico y creador de los robots</div>
+    <div>_Scourge: Creación malébola</div>
+
+
+    <div class="scene">
+      <h2>Escena 1: Introducción</h2>
+      
+      <div class="dialogue">---El señor Jones es un científico muy reconocido por haber ayudado a demasiadas personas a controlar la guerra y la violencia gracias a su invento, los robots. Pero ahora está trabajando en un robot malévolo para exterminar a sus propias creaciones.----</div>
+      <div class="character">Sr. Jones: Pronto todos sabrán de lo que soy capaz. Con este invento conquistaré el mundo, todos lucharán por detenerme. Es hora de revelarlo.</div>
+      
+      <div class="dialogue">"Empieza a activarse su robot malévolo"</div>
+      <div class="character">Sr. Jones: Ah sí, esto está listo. Como tu creador... ¡te ordeno que despiertes!</div>
+      
+      <div class="character">Scourge: ¿Qué es lo que está pasando? Me siento terrible, como si no fuera yo. ¿Qué me has hecho?</div>
+      <div class="character">Sr. Jones: Tan solo te he hecho un par de mejoras...</div>
+      <div class="character">Scourge: ¿Tú? ¿Mejorarme? Lo único que has hecho es...</div>
+      <div class="character">Sr. Jones: Silencio, no quiero que te escuchen los demás... ¡Cuidado, viene uno!</div>
+      
+      <div class="dialogue">Entra en escena "Charlie", el robot más cercano al Sr. Jones</div>
+    </div>
+    
+    <div class="scene">
+      <h2>Escena 2: Desarrollo</h2>
+      <div class="character">Charlie: Señor, sé que no le gusta que pregunte, pero escuché un ruido y pensé que debería... ¡Oh no, qué es eso!</div>
+      <div class="character">Scourge: Así que hay más como yo... ¿quién es él?</div>
+      <div class="character">Sr. Jones: Es tan solo un robot más, nada que pueda importar...</div>
+      <div class="character">Charlie: Un robot más... Pensé que usted y yo éramos amigos, pero...</div>
+      <div class="character">Scourge: Comienza a molestarme, déjame matarlo...</div>
+      <div class="character">Sr. Jones: Adelante, te concedo el maldito honor.</div>
+      
+      <div class="dialogue">Scourge saca su arma y comienza a dispararle a Charlie hasta dejarlo sin cabeza.</div>
+      
+      <div class="character">PUNK: ¿Pero qué has hecho? ¿Quién ha sido el responsable? No creo que haya sido usted, Sr. Jones. Por tantos años hemos peleado juntos, me rehúso a creerlo...</div>
+      <div class="character">Scourge: Él también me está cansando. Debería matarlo...</div>
+      <div class="character">Sr. Jones: Acaba con él, no lo necesitamos.</div>
+      <div class="character">Scourge: En ese caso...</div>
+      <div class="character">PUNK: ¡No, no dejaré...!</div>
+      <div class="character">Scourge: Tus últimas palabras...</div>
+      <div class="character">PUNK: ¿Qué te parece esto...?</div>
+    </div>
+    
+    <div class="scene">
+      <h2>Escena 3: Clímax</h2>
+      
+      <div class="dialogue">PUNK saca su espada y comienzan a pelear desenfrenadamente hasta que PUNK decapita a SCOURGE.</div>
+    </div>
+    
+    <div class="dialogue">Lamento que esto acabe así...</div>
+    
+    <div class="character">Sr. Jones: Esto no ha acabado...</div>
+    
+    <div class="scene">
+      <h2>Escena 4: Conclusión</h2>
+      
+      <div class="character">PUNK: Me niego a dejarlo con vida... Porque ahora yo seré el malvado que destruya a todos...</div>
+      <div class="dialogue">PUNK mata al Sr. Jones y ahora se convierte en un ser robótico lleno de rabia y violencia, dispuesto a acabar con la humanidad por su poca compasión.</div>
+    </div>
+    
+    <div class="character">PUNK: Cuídense porque yo mismo iré a matarlos...</div>
+    
+    <div class="dialogue">Y así, nuestra obra de teatro llega a su fin.</div>
+    
+    <hr class="hr-design">
+    
+    <h2>Galería de Fotos</h2>
+    <div class="photo-album">
+      <img src="F:\HTML huitron\fotos/1.png" alt="Foto 1">
+      <img src="F:\HTML huitron\fotos/2.png" alt="Foto 2">
+      <img src="F:\HTML huitron\fotos/3.png" alt="Foto 3">
+      <img src="F:\HTML huitron\fotos/4.png" alt="Foto 4">
+      <img src="F:\HTML huitron\fotos/5.png" alt="Foto 5">
+      <img src="F:\HTML huitron\fotos/6.png" alt="Foto 6">
+    </div>
+    
+    
+    <div class="marquee">
+      <marquee behavior="scroll" direction="left">
+        ¡Descubre nuestra obra de teatro llena de emoción y sorpresas! ¡No te la pierdas!
+      </marquee>
+    </div>
+    
+    <div class="marquee">
+      <marquee behavior="alternate">
+        ¡Sigue actualizándote con nuestras últimas noticias y eventos especiales! ¡Suscríbete ahora!
+      </marquee>
+    </div>
+    
+  </div>
+</body>
+</html>
